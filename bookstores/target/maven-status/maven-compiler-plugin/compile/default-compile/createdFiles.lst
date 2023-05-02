@@ -1,0 +1,15 @@
+com\bookstores\bookstores\security\SecurityConfig.class
+com\bookstores\bookstores\controller\StoresController.class
+com\bookstores\bookstores\repository\StoresRepository.class
+com\bookstores\bookstores\entity\StoresEntity.class
+com\bookstores\bookstores\controller\BookController.class
+com\bookstores\bookstores\Services\UserDetailsServiceImp.class
+com\bookstores\bookstores\repository\UserRepository.class
+com\bookstores\bookstores\Services\StoresService.class
+com\bookstores\bookstores\entity\RoleEntity.class
+com\bookstores\bookstores\BookstoresApplication.class
+com\bookstores\bookstores\entity\BookEntity.class
+com\bookstores\bookstores\entity\AuthorityEntity.class
+com\bookstores\bookstores\entity\UserEntity.class
+com\bookstores\bookstores\repository\BookRepository.class
+com\bookstores\bookstores\Services\BookService.class

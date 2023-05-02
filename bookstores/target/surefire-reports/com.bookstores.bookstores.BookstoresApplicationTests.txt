@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.bookstores.bookstores.BookstoresApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.554 s <<< FAILURE! - in com.bookstores.bookstores.BookstoresApplicationTests
+contextLoads  Time elapsed: 0.018 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: mappedBy reference an unknown target entity property: com.bookstores.bookstores.entity.RoleEntity.UserEntityList in com.bookstores.bookstores.entity.UserEntity.RoleEntityList
+Caused by: org.hibernate.AnnotationException: mappedBy reference an unknown target entity property: com.bookstores.bookstores.entity.RoleEntity.UserEntityList in com.bookstores.bookstores.entity.UserEntity.RoleEntityList
+
